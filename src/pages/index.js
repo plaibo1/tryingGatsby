@@ -7,8 +7,6 @@ import Seo from "../components/seo"
 
 const IndexPage = ({data}) => {
 
-  console.log(data)
-
   const allMarkdownRemark = data.allMarkdownRemark;
 
   const allContentfulAnime = data.allContentfulAnime;
